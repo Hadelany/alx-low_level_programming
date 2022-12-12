@@ -1,20 +1,23 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - prints the alphabets in reverse
- * Return: Always 0
+ * main - m block
+ * Descripion: prints all single digit number of base 10
+ * starting from 0, folowed by a new line.
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	int num;
-	char la;
+	char ch;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
-	for (la = 'a'; la <= 'f'; la++)
-
-		putchar('\n');
-
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
 }
