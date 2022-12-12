@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char ch;
+	char la;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	for (la = 'a'; la <= 'z'; la++)
+	{
+		if (la != 'e' && la != 'q')
+			putchar(la);
+	}
 
 	putchar('\n');
 
