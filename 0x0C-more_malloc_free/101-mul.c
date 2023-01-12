@@ -1,20 +1,3 @@
-
-Abiodun-Shittu
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-@Abiodun-Shittu
-Abiodun-Shittu final task
- 1 contributor
-111 lines (97 sloc)  2.22 KB
 #include "main.h"
 
 /**
