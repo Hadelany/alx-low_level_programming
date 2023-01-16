@@ -1,4 +1,3 @@
-4 sloc)  69 Bytes
 #ifndef _SUM_H
 #define _SUM_H
 
