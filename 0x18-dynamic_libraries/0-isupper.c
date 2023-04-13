@@ -1,19 +1,19 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
- * _isupper - checks for uppercase character
- * @c: character to be tested
- * Return: 1 for uppercase
- * 0 for not uppercase
+ * _isupper - checks uppercase
+ * @c: parameter
+ * Return: 0 if successful
  */
+
 int _isupper(int c)
 {
-	if (isupper(c) == 0)
+	if (c >= 65 && c < 91)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
